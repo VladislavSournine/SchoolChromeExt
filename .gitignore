@@ -1,0 +1,15 @@
+.DS_Store
+.idea/
+.vscode/
+*.swp
+.claude/settings.local.json
+.env
+.env.*
+!.env.example
+secrets/
+*.log
+logs/
+build/
+dist/
+coverage/
+.codegraph/

@@ -1,0 +1,5 @@
+{
+  "env": {
+    "PROJECT_DOCS_ROOT": "docs"
+  }
+}
