@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Експорт журналів (academy.com.ua)",
+  "version": "1.0.0",
+  "description": "Вивантажує журнали вчителя (оцінки, Н, коментарі, теми, ДЗ) з 1 вересня по сьогодні в Excel.",
+  "content_scripts": [
+    {
+      "matches": ["https://*.academy.com.ua/*"],
+      "js": ["src/core.js", "src/xlsx.js", "src/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
