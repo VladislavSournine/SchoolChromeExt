@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Уроки в журнал A+",
+  "version": "1.1.0",
+  "description": "Заповнює тему, файли уроку і домашнє в журналі aik.academy.com.ua з папки тижня (uroky.json). Заповнене не перезаписує.",
+  "content_scripts": [
+    {
+      "matches": ["https://aik.academy.com.ua/schedule/teacher*"],
+      "js": ["src/content.js"]
+    }
+  ]
+}
