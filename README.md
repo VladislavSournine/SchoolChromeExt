@@ -9,6 +9,7 @@
 | Розширення | Що робить | Завантажити |
 |---|---|---|
 | [Експорт журналів](extensions/journal-export/) | Вивантажує журнали вчителя (оцінки, «Н», коментарі, теми, ДЗ) з 1 вересня по сьогодні в Excel | [journal-export.zip](https://github.com/VladislavSournine/SchoolChromeExt/releases/latest/download/journal-export.zip) |
+| [Уроки в журнал A+](extensions/lesson-import/) | Заповнює тему, файли уроку і ДЗ з папки тижня (`uroky.json`) — лише порожні поля, aik.academy.com.ua | [lesson-import.zip](https://github.com/VladislavSournine/SchoolChromeExt/releases/latest/download/lesson-import.zip) |
 
 ## Як встановити (≈2 хвилини)
 
